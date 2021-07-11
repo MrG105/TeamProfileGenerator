@@ -33,7 +33,7 @@ const assembleTeam = team => {
                 <h5 class="card-title">${engineer.getName()} - ${engineer.getRole()}</h5>
                 <ul class = "list-group text-dark">
                     <li class = "list-group-item">ID Number: ${engineer.getId()}</li>
-                    <li class = "list-group-item">Email: ${engineer.getEmail()}</li>
+                    <li class = "list-group-item">Email: <a href= "mailto:${engineer.getEmail()}">${engineer.getEmail()}</a></li>
                     <li class = "list-group-item">Github: ${engineer.getGithub()}</li>
                 </ul>
             </div>
@@ -47,7 +47,7 @@ const assembleTeam = team => {
                 <h5 class="card-title">${manager.getName()} - ${manager.getRole()}</h5>
                 <ul class = "list-group text-dark">
                     <li class = "list-group-item">ID Number: ${manager.getId()}</li>
-                    <li class = "list-group-item">Email: ${manager.getEmail()}</li>
+                    <li class = "list-group-item">Email: <a href= "mailto:${manager.getEmail()}">${manager.getEmail()}</a></li>
                     <li class = "list-group-item">Office Number: ${manager.getOfficeNumber()}</li>
                 </ul>
             </div>
@@ -61,7 +61,7 @@ const assembleTeam = team => {
                 <h5 class="card-title">${intern.getName()} - ${intern.getRole()}</h5>
                 <ul class = "list-group text-dark">
                     <li class = "list-group-item">ID Number: ${intern.getId()}</li>
-                    <li class = "list-group-item">Email: ${intern.getEmail()}</li>
+                    <li class = "list-group-item">Email: <a href= "mailto:${intern.getEmail()}">${intern.getEmail()}</a></li>
                     <li class = "list-group-item">School Attending: ${intern.getSchool()}</li>
                 </ul>
             </div>

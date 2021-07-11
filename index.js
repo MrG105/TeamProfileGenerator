@@ -139,7 +139,13 @@ function buildTeam() {
 
 }
 
-function renderHTML() {
-    console.log("Building Your Team Of All-Stars");
-    fs.writeFile(outputPath, render(team), "utf-8");
+function init() {
+    buildTeam();
 }
+
+function renderHTML() {
+    console.log("Assembling Your Team Of All-Stars");
+    fs.writeFile(outputPath, render(team), "utf-8", () => {});
+}
+
+init();
