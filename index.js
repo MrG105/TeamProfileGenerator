@@ -2,6 +2,9 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 const jest = require('jest');
 const path = require('path');
+const dist_dir = path.resolve(__dirname, 'dist');
+const outputPath = path.join(dist_dir, 'index.html');
+const render = require('./src/template.js');
 
 
 const Employee = require('./lib/Employee');
