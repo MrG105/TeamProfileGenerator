@@ -25,6 +25,7 @@
   ## Usage  
   ![screenshot](./assets/images/screenshot.PNG)  
   ![screenshot](./assets/images/screenshot2.PNG)  
+  Demo video linked at:[Video](https://drive.google.com/file/d/1xTj-pJFuLCNqvcY-Geu7X12vWEUBHmtg/view "Demo Video")
 
       
   ## Credits  
