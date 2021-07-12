@@ -23,8 +23,8 @@
       node index.js  
 
   ## Usage  
-  ![screenshot](assets/images/screenshot.png)  
-  ![screenshot2](assets/images/screenshot2.png)  
+  ![screenshot](./assets/images/screenshot.png)  
+  ![screenshot](./assets/images/screenshot2.png)  
 
       
   ## Credits  
