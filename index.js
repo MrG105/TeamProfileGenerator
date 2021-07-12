@@ -94,7 +94,7 @@ function addManager() {
         },
         {
             type: 'input',
-            name: 'managerOfficenumber',
+            name: 'managerOfficeNumber',
             message: 'What is the Office Number of your Manager?',
         },
     ]).then(answers => {
